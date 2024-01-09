@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 
 import Link from '@mui/joy/Link';
 import Card from '@mui/joy/Card';
@@ -6,7 +7,7 @@ import Chip from '@mui/joy/Chip';
 import Typography from '@mui/joy/Typography';
 import EmpleadoAvatar from './EmpleadoAvatar';
 
-export default function EmpleadoRow() {
+export default function EmpleadoRow({name, title, department, pic  }) {
   return (
     <Card
      
@@ -17,10 +18,10 @@ export default function EmpleadoRow() {
         '&:hover': { boxShadow: 'md', borderColor: 'neutral.outlinedHoverBorder' },
       }}
     >
-        <EmpleadoAvatar/>
+        <EmpleadoAvatar pic={pic}/>
       <CardContent>
         <Typography level="title-lg" id="card-description">
-          Yosemite Park
+          {name}
         </Typography>
         <Typography level="body-sm" aria-describedby="card-description" mb={1}>
           <Link
@@ -29,7 +30,7 @@ export default function EmpleadoRow() {
             href="#interactive-card"
             sx={{ color: 'text.tertiary' }}
           >
-            California, USA
+            {title}
           </Link>
         </Typography>
         <Chip
@@ -38,7 +39,7 @@ export default function EmpleadoRow() {
           size="sm"
           sx={{ pointerEvents: 'none' }}
         >
-          Cool weather all day long
+          {department}
         </Chip>
       </CardContent>
     </Card>
