@@ -7,7 +7,7 @@ const EmpleadoList = () => {
  
 
   return (
-    <div className='flex flex-col gap-5 max-w-[25vw] border h-[100vh] p-2'>
+    <div className='flex flex-col gap-5 border h-[100vh] p-2 '>
       {
         employees.map(employees => (
           <EmpleadoRow
