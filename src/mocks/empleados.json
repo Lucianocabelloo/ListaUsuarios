@@ -1,0 +1,14 @@
+{
+    "Search": [
+      { "id": 1, "fullName": "Laya Dueñas", "title": "CEO", "department": "Business", "pic": "https://cdn.icon-icons.com/icons2/2643/PNG/512/female_woman_person_people_avatar_user_white_tone_icon_159359.png" },
+      { "id": 2, "fullName": "Astryd Vallés", "title": "CMO", "department": "Marketing", "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUEwYFUmk3wO9izaRgJwD9cdrHzE4ZYHbqdO8KN4x0GpCAYmIt6lvP0855HetLnBm8dGU&usqp=CAU" },
+      { "id": 3, "fullName": "Shantell Meza", "title": "CFO", "department": "Business", "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbUqkRN4QaEzCW4brgWElc7lv8HdwP8RyxJ89WdDWAoIO-rEUIACXkEXG4n2mDGMLuz4Q&usqp=CAU" },
+      { "id": 4, "fullName": "Sergio Ocampo", "title": "CTO", "department": "Engineering", "pic": "https://cdn-icons-png.flaticon.com/512/219/219983.png" },
+      { "id": 5, "fullName": "Ares Jiménez", "title": "Art Director", "department": "Marketing", "pic": "https://cdn-icons-png.flaticon.com/512/4139/4139981.png" },
+      { "id": 6, "fullName": "Marta Pérez", "title": "Frontend Dev", "department": "Engineering", "pic": "https://cdn.icon-icons.com/icons2/582/PNG/512/woen-2_icon-icons.com_55032.png" },
+      { "id": 7, "fullName": "Ellen Balderas", "title": "Digital Strategist", "department": "Marketing", "pic": "https://cdn.icon-icons.com/icons2/1736/PNG/512/4043250-avatar-child-girl-kid_113270.png" },
+      { "id": 8, "fullName": "Cynthia Valentín", "title": "Backend Dev", "department": "Engineering", "pic": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTea6mpJZODj13Lvutndl6PgvULvVC3tPcreM4doidd7vHImnTOeK0HkfZIrFGeHuN_aJc&usqp=CAU" },
+      { "id": 9, "fullName": "Bernard Jung", "title": "DevOps Engineer", "department": "Engineering", "pic": "https://w7.pngwing.com/pngs/857/213/png-transparent-man-avatar-user-business-avatar-icon.png" }
+    ]
+  }
+  
