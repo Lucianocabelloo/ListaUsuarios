@@ -1,5 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 .MuiCard-horizontal{
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100% !important;
 }

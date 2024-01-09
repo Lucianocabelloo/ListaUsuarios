@@ -9,6 +9,7 @@ import EmpleadoAvatar from './EmpleadoAvatar';
 export default function EmpleadoRow() {
   return (
     <Card
+     
       variant="outlined"
       orientation="horizontal"
       sx={{

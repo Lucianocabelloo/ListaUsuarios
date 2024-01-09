@@ -1,4 +1,4 @@
-import EmpleadoRow from "./Components/EmpleadoRow"
+import EmpleadoList from "./Components/EmpleadoList"
 
 function App() {
 
@@ -7,7 +7,7 @@ function App() {
     <>
       <div>
         <h1>Welcome to our page!</h1>
-        <EmpleadoRow/>
+        <EmpleadoList/>
       </div>
     </>
   )
