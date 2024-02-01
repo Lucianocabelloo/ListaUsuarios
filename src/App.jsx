@@ -1,6 +1,6 @@
 import EmpleadoList from "./Components/EmpleadoList"
 import { CssVarsProvider } from '@mui/joy/styles';
-import ToggleTheme from "./Components/toggleTheme";
+import ToggleTheme from "./Components/ToggleTheme";
 
 
 function App() {
